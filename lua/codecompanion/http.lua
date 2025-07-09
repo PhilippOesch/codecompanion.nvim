@@ -137,6 +137,7 @@ function Client:request(payload, actions, opts)
     proxy = config.adapters.opts.proxy,
     raw = raw,
     body = body_file.filename or "",
+    query = handlers.set_query and handlers.set_query(adapter, payload) or nil,
     -- This is called when the request is finished. It will only ever be called
     -- once, even if the endpoint is streaming.
     callback = function(data)
