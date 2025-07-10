@@ -34,8 +34,8 @@ return {
       adapter.opts = adapter.opts or {}
       local query_params = {
         q = data.query,
-        count = 10,
-        result_filter = "web",
+        count = adapter.opts.count or 10,
+        result_filter = adapter.opts.result_filter or "web",
       }
 
       return query_params

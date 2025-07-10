@@ -27,6 +27,7 @@ local defaults = {
     -- Non LLMs
     jina = "jina",
     tavily = "tavily",
+    brave = "brave",
     -- OPTIONS ----------------------------------------------------------------
     opts = {
       allow_insecure = false, -- Allow insecure connections?

@@ -1,0 +1,225 @@
+{
+    "query": {
+        "original": "github.com",
+        "show_strict_warning": false,
+        "is_navigational": true,
+        "is_news_breaking": false,
+        "spellcheck_off": false,
+        "country": "us",
+        "bad_results": false,
+        "should_fallback": false,
+        "postal_code": "",
+        "city": "",
+        "header_country": "",
+        "more_results_available": true,
+        "state": ""
+    },
+    "mixed": {
+        "type": "mixed",
+        "main": [
+            {
+                "type": "web",
+                "index": 0,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 1,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 2,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 3,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 4,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 5,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 6,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 7,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 8,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 9,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 10,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 11,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 12,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 13,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 14,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 15,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 16,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 17,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 18,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 19,
+                "all": false
+            }
+        ],
+        "top": [],
+        "side": []
+    },
+    "type": "search",
+    "web": {
+        "type": "search",
+        "results": [
+            {
+                "title": "GitHub \u00b7 Build and ship software on a single, collaborative platform",
+                "url": "https://github.com",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>GitHub</strong> is where people build software. More than 150 million people use <strong>GitHub</strong> to discover, fork, and contribute to over 420 million projects.",
+                "profile": {
+                    "name": "GitHub",
+                    "url": "https://github.com",
+                    "long_name": "github.com",
+                    "img": "https://imgs.search.brave.com/xxsA4YxzaR0cl-DBsH9-lpv2gsif3KMYgM87p26bs_o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWQyNWM1NjA5/ZjZmZjNlYzI2MDNk/N2VkNmJhYjE2MzZl/MDY5ZTMxMDUzZmY1/NmU3NWIzNWVmMjk0/NTBjMjJjZi9naXRo/dWIuY29tLw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "github.com",
+                    "hostname": "github.com",
+                    "favicon": "https://imgs.search.brave.com/xxsA4YxzaR0cl-DBsH9-lpv2gsif3KMYgM87p26bs_o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWQyNWM1NjA5/ZjZmZjNlYzI2MDNk/N2VkNmJhYjE2MzZl/MDY5ZTMxMDUzZmY1/NmU3NWIzNWVmMjk0/NTBjMjJjZi9naXRo/dWIuY29tLw",
+                    "path": ""
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/DhPklcV5nUURgTjC5qYBhA05ARGhlqErmK1tUPTvBx8/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9naXRo/dWIuZ2l0aHViYXNz/ZXRzLmNvbS9hc3Nl/dHMvaG9tZTI0LTU5/MzkwMzI1ODdjOS5q/cGc",
+                    "original": "https://github.githubassets.com/assets/home24-5939032587c9.jpg",
+                    "logo": false
+                }
+            },
+            {
+                "title": "GitHub - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/GitHub",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>GitHub</strong> (/\u02c8\u0261\u026ath\u028cb/ \u24d8) is a proprietary developer platform that allows developers to create, store, manage, and share their code. It uses Git to provide distributed version control and <strong>GitHub</strong> itself provides access control, bug tracking, software feature requests, task management, continuous ...",
+                "page_age": "2025-07-10T12:19:07",
+                "profile": {
+                    "name": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/GitHub",
+                    "long_name": "en.wikipedia.org",
+                    "img": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "en.wikipedia.org",
+                    "hostname": "en.wikipedia.org",
+                    "favicon": "https://imgs.search.brave.com/m6XxME4ek8DGIUcEPCqjRoDjf2e54EwL9pQzyzogLYk/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+                    "path": "\u203a wiki  \u203a GitHub"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/UcNO7iyLVdvUOumaY59WwR5AumxUVH2kvE0-wuEu9XE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2MyL0dpdEh1Yl9J/bnZlcnRvY2F0X0xv/Z28uc3Zn",
+                    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg",
+                    "logo": true
+                },
+                "age": "10 hours ago"
+            },
+            {
+                "title": "GitHub - Apps on Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.github.android&hl=en_US",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Triage notifications, review, comment, and merge, right from your mobile device",
+                "page_age": "2025-06-25T18:25:03",
+                "profile": {
+                    "name": "Google Play",
+                    "url": "https://play.google.com/store/apps/details?id=com.github.android&hl=en_US",
+                    "long_name": "play.google.com",
+                    "img": "https://imgs.search.brave.com/BRXcD4iaX7N7RXX5b2ues7rPiumLO6jABWJKycKQM3o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjgwZWUzMzVj/YTc2M2VmMDJlYjE2/YmIyYzA3Y2IwZDkx/ZGViYmUxOGU1Njk4/NGI0NDNhOTQ1N2Mw/MDYyNjk4Ny9wbGF5/Lmdvb2dsZS5jb20v"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "creative_work",
+                "is_live": false,
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "play.google.com",
+                    "hostname": "play.google.com",
+                    "favicon": "https://imgs.search.brave.com/BRXcD4iaX7N7RXX5b2ues7rPiumLO6jABWJKycKQM3o/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjgwZWUzMzVj/YTc2M2VmMDJlYjE2/YmIyYzA3Y2IwZDkx/ZGViYmUxOGU1Njk4/NGI0NDNhOTQ1N2Mw/MDYyNjk4Ny9wbGF5/Lmdvb2dsZS5jb20v",
+                    "path": "\u203a store  \u203a apps  \u203a details"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/hAOQYC8yJfV6KNoVBCH_AR9hmoglBF68oupINLfYuJc/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9QQ3BYZHF2VVdm/Q1cxbVhoSDFZXzk4/eUJwZ3NXeHVUU1Rv/ZnkzTkdNbzl5QlRB/VER5elZrcVU1ODBi/ZlNsbjUwYkZV",
+                    "original": "https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU",
+                    "logo": false
+                },
+                "age": "2 weeks ago"
+            }
+        ],
+        "family_friendly": true
+    }
+}
