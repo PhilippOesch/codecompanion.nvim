@@ -8,14 +8,15 @@ return {
     llm = "assistant",
     user = "user",
   },
-  opts = {},
+  opts = {
+    method = "get",
+  },
   url = "https://api.search.brave.com/res/v1/web/search",
   env = {
     api_key = "BRAVE_API_KEY",
   },
   headers = {
     ["Content-Type"] = "application/json",
-    ["Accept-Encoding:"] = "gzip",
     ["X-Subscription-Token"] = "${api_key}",
   },
   schema = {
@@ -34,7 +35,7 @@ return {
       adapter.opts = adapter.opts or {}
       local query_params = {
         q = data.query,
-        count = adapter.opts.count or 10,
+        count = adapter.opts.count or 3,
         result_filter = adapter.opts.result_filter or "web",
       }
 
