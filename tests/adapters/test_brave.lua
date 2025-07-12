@@ -77,4 +77,28 @@ T["Brave adapter"]["should handle missing fields"] = function()
   h.eq(res, expected)
 end
 
+T["Brave adapter"]["should format results correctly for other 'result_filter'"] = function()
+  adapter.opts = {
+    count = 15,
+    result_filter = "discussions",
+  }
+
+  local data = {
+    discussions = {
+      results = {
+        { title = "Title 1", url = "https://example.com/1", description = "Content 1" },
+        { title = "Title 2", url = "https://example.com/2", description = "Content 2" },
+      },
+    },
+  }
+
+  local expected = {
+    "**Title: Title 1**\nURL: https://example.com/1\nContent: Content 1\n\n",
+    "**Title: Title 2**\nURL: https://example.com/2\nContent: Content 2\n\n",
+  }
+
+  local res = adapter.methods.tools.web_search.output(adapter, data)
+  h.eq(res, expected)
+end
+
 return T

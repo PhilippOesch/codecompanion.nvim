@@ -50,13 +50,15 @@ return {
         ---@param data table The data returned from the web search
         ---@return table
         output = function(self, data)
-          if data.web == nil or data.web.results == nil or #data.web.results == 0 then
+          local result_filter = self.opts.result_filter or "web"
+
+          if data[result_filter] == nil or data[result_filter].results == nil or #data[result_filter].results == 0 then
             log:error("No results found")
             return {}
           end
 
           local output = {}
-          for _, result in ipairs(data.web.results) do
+          for _, result in ipairs(data[result_filter].results) do
             local title = result.title or ""
             local url = result.url or ""
             local content = result.description or ""
