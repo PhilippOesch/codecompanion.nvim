@@ -44,28 +44,27 @@ return {
   methods = {
     tools = {
       web_search = {
-        -- TODO: Implement
 
-        -- ---Process the output from the web search tool
-        -- ---@param self CodeCompanion.Adapter
-        -- ---@param data table The data returned from the web search
-        -- ---@return table
-        -- output = function(self, data)
-        --   if data.results == nil or #data.results == 0 then
-        --     log:error("No results found")
-        --     return {}
-        --   end
-        --
-        --   local output = {}
-        --   for _, result in ipairs(data.results) do
-        --     local title = result.title or ""
-        --     local url = result.url or ""
-        --     local content = result.content or ""
-        --     table.insert(output, string.format("**Title: %s**\nURL: %s\nContent: %s\n\n", title, url, content))
-        --   end
-        --
-        --   return output
-        -- end,
+        ---Process the output from the web search tool
+        ---@param self CodeCompanion.Adapter
+        ---@param data table The data returned from the web search
+        ---@return table
+        output = function(self, data)
+          if data.web == nil or data.web.results == nil or #data.web.results == 0 then
+            log:error("No results found")
+            return {}
+          end
+
+          local output = {}
+          for _, result in ipairs(data.web.results) do
+            local title = result.title or ""
+            local url = result.url or ""
+            local content = result.description or ""
+            table.insert(output, string.format("**Title: %s**\nURL: %s\nContent: %s\n\n", title, url, content))
+          end
+
+          return output
+        end,
       },
     },
   },
