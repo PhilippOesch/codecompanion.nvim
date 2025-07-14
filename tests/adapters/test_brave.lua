@@ -19,7 +19,7 @@ T["Brave adapter"]["should return properly formatted query with default options"
   local query = adapter.handlers.set_query(adapter, data)
 
   h.eq(query.q, data.query)
-  h.eq(query.count, 10)
+  h.eq(query.count, 5)
   h.eq(query.result_filter, "web")
 end
 

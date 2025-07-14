@@ -34,7 +34,7 @@ return {
       adapter.opts = adapter.opts or {}
       local query_params = {
         q = data.query,
-        count = adapter.opts.count or 3,
+        count = adapter.opts.count or 5,
         result_filter = adapter.opts.result_filter or "web", -- web, discussions, faq, infobox, query, summarizer, videos, locations
       }
 
