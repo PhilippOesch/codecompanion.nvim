@@ -139,7 +139,14 @@ The _@web_search_ tool enables an LLM to search the web for a specific query. Th
 Can you use the @{web_search} tool to tell me the latest version of Neovim?
 ```
 
-Currently, the tool uses [tavily](https://www.tavily.com) and you'll need to ensure that an API key has been set accordingly, as per the [adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/tavily.lua).
+Currently, the tool uses [tavily](https://www.tavily.com) as default adapter
+
+Following adapters are supported:
+
+- [tavily](https://www.tavily.com) -> [Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/tavily.lua)
+- [brave](https://brave.com/search/api/) -> [Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/brave.lua)
+
+You'll need to ensure that an API key has been set accordingly. As per adapter.
 
 You can also ask it to search under a specific domain:
 ```
