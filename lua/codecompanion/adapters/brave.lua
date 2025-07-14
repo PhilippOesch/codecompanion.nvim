@@ -26,7 +26,6 @@ return {
   },
   handlers = {
     -- https://api-dashboard.search.brave.com/app/documentation/web-search/get-started
-    -- TODO: Move this into a separate method if we implement other Brave endpoints
     set_query = function(adapter, data)
       if data.query == nil or data.query == "" then
         return log:error("Search query is required")
