@@ -143,8 +143,8 @@ Currently, the tool uses [tavily](https://www.tavily.com) as default adapter
 
 Following adapters are supported:
 
-- [tavily](https://www.tavily.com) -> [Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/tavily.lua)
-- [brave](https://brave.com/search/api/) -> [Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/brave.lua)
+- [tavily](https://www.tavily.com) -> [See Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/tavily.lua)
+- [brave](https://brave.com/search/api/) -> [See Adapter](https://github.com/olimorris/codecompanion.nvim/blob/main/lua/codecompanion/adapters/brave.lua)
 
 You'll need to ensure that an API key has been set accordingly. As per adapter.
 
